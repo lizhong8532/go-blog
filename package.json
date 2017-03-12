@@ -1,0 +1,22 @@
+{
+  "name": "go-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "iris run src/go/main.go",
+    "build:gdb": "go build -o goblog -gcflags '-N -l' src/go/main.go",
+    "build": "go build -o goblog src/go/main.go && mv goblog dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizhong8532/go-blog.git"
+  },
+  "author": "JongLee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizhong8532/go-blog/issues"
+  },
+  "homepage": "https://github.com/lizhong8532/go-blog#readme"
+}

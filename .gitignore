@@ -1,0 +1,5 @@
+.idea/
+blogForGo.iml
+npm-debug.log
+goblog
+dist/
